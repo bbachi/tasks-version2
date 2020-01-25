@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  background-color: azure;
+  padding: 2% 5%;
+}
+
+.container {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.task {
+   padding: 2% 3%;
+   width: 15%;
+   background-color: green;
+   color: white;
+   margin: 2% 5%;
+}
+
+.taskboard {
+   padding: 2% 3%;
+   width: 15%;
+   background-color:yellow;
+   color: black;
+   margin-left: 50%;
+}
+
+.tsk {
+  text-align: left;
+  font-weight: bolder;
+}
+
+.left {
+  padding-right: 50%;
+}
+
+.row {
+  text-align: left;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.btnchg {
+  padding: 2% 5%;
+  background-color: rgb(248, 97, 9);
+  color: white;
+  border: 1px solid rgb(248, 97, 9);
+  border-radius: 5px;
+  font-weight: bolder;
+  cursor: pointer;
+  
+}
+
+.add {
+   padding: 2% 3%;
+   width: 5%;
+   background-color: green;
+   color: white;
+   font-weight: bolder;
+   font-size: xx-large;
+   cursor: pointer;
+   margin-left: 7%;
+}
